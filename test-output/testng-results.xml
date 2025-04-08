@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-09T00:01:10 ICT" name="Default suite" finished-at="2025-04-09T00:01:11 ICT" duration-ms="80">
+    <groups>
+    </groups>
+    <test started-at="2025-04-09T00:01:10 ICT" name="Default test" finished-at="2025-04-09T00:01:11 ICT" duration-ms="80">
+      <class name="com.example.CalculatorTestNG">
+        <test-method signature="testAdd()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:10 ICT" name="testAdd" finished-at="2025-04-09T00:01:11 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method signature="testDivide()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:11 ICT" name="testDivide" finished-at="2025-04-09T00:01:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivide -->
+        <test-method signature="testDivideByZero()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:11 ICT" name="testDivideByZero" finished-at="2025-04-09T00:01:11 ICT" duration-ms="1" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Khong the chia cho 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Khong the chia cho 0
+at com.example.Calculator.divide(Calculator.java:18)
+at com.example.CalculatorTestNG.testDivideByZero(CalculatorTestNG.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideByZero -->
+        <test-method signature="testIsPositiveInteger_False()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:11 ICT" name="testIsPositiveInteger_False" finished-at="2025-04-09T00:01:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPositiveInteger_False -->
+        <test-method signature="testIsPositiveInteger_True()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:11 ICT" name="testIsPositiveInteger_True" finished-at="2025-04-09T00:01:11 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPositiveInteger_True -->
+        <test-method signature="testMultiply()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:11 ICT" name="testMultiply" finished-at="2025-04-09T00:01:11 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+        <test-method signature="testParseNumber_InvalidFormat()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:11 ICT" name="testParseNumber_InvalidFormat" finished-at="2025-04-09T00:01:11 ICT" duration-ms="1" status="PASS">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Dinh dang so khong hop le: abc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Dinh dang so khong hop le: abc
+at com.example.Calculator.parseNumber(Calculator.java:30)
+at com.example.CalculatorTestNG.testParseNumber_InvalidFormat(CalculatorTestNG.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseNumber_InvalidFormat -->
+        <test-method signature="testParseNumber_NullInput()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:11 ICT" name="testParseNumber_NullInput" finished-at="2025-04-09T00:01:11 ICT" duration-ms="2" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Chuoi dau vao la null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Chuoi dau vao la null
+at com.example.Calculator.parseNumber(Calculator.java:25)
+at com.example.CalculatorTestNG.testParseNumber_NullInput(CalculatorTestNG.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseNumber_NullInput -->
+        <test-method signature="testParseNumber_Valid()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:11 ICT" name="testParseNumber_Valid" finished-at="2025-04-09T00:01:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseNumber_Valid -->
+        <test-method signature="testSubtract()[pri:0, instance:com.example.CalculatorTestNG@14dd9eb7]" started-at="2025-04-09T00:01:11 ICT" name="testSubtract" finished-at="2025-04-09T00:01:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtract -->
+      </class> <!-- com.example.CalculatorTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
